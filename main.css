@@ -1,0 +1,147 @@
+/*MAIN CAROUSEL PROPERTIES*/
+
+.carousel-wrapper, carousel, .slide {
+    height: 100vh;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.carousel-wrapper{
+    position: relative;
+}
+
+.slide{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: table;
+    z-index: -1000;
+}
+
+.slide-content{
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 30%; 
+    display: table-cell;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.arrow{
+    /*cursor: pointer;  */
+    position: absolute;
+    top: 80%;
+    margin-top: -15px;
+    z-index: 1000;
+}
+
+#left-arrow{
+    border-width: 20px 30px 20px 20px;
+    border-color: transparent white transparent transparent;
+    border-style: solid;
+    left: 30px;
+}
+
+#right-arrow{
+    border-width: 20px 20px 20px 30px;
+    border-color: transparent transparent transparent white;
+    border-style: solid;
+    right: 30px;
+}
+
+
+.film-title{
+    font-size: 30px;
+}
+
+
+
+/*SLIDES VIDEO*/
+
+.YTplayer{
+    z-index: -1000;
+}
+
+
+/*SLIDES IMAGES*/
+
+.slide1{
+    background-image: url("/img/Img00001.jpg")
+}
+
+.slide2{
+    background-image: url("/img/Img00002.jpg")
+}
+
+.slide3{
+    background-image: url("/img/Img00003.jpg")
+}
+
+.slide4{
+    background-image: url("/img/Img00004.jpg")
+}
+
+.slide5{
+    background-image: url("/img/Img00005.jpg")
+}
+
+.slide6{
+    background-image: url("/img/Img00006.jpg")
+}
+.slide7{
+    background-image: url("/img/Img00007.jpg")
+}
+
+.slide8{
+    background-image: url("/img/Img00008.jpg")
+}
+
+.slide9{
+    background-image: url("/img/Img00009.jpg")
+}
+
+.slide10{
+    background-image: url("/img/Img00010.jpg")
+}
+
+.slide11{
+    background-image: url("/img/Img00011.jpg")
+}
+
+.slide12{
+    background-image: url("/img/Img00012.jpg")
+}
+
+.slide13{
+    background-image: url("/img/Img00013.jpg")
+}
+
+.slide14{
+    background-image: url("/img/Img00014.jpg")
+}
+
+.slide15{
+    background-image: url("/img/Img00015.jpg")
+}
+
+.slide16{
+    background-image: url("/img/Img00016.jpg")
+}
+.slide17{
+    background-image: url("/img/Img00017.jpg")
+}
+
+.slide18{
+    background-image: url("/img/Img00018.jpg")
+}
+
+.slide19{
+    background-image: url("/img/Img00019.jpg")
+}
+
+.slide20{
+    background-image: url("/img/Img00020.jpg")
+}
